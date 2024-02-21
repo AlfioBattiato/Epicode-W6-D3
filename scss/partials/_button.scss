@@ -1,0 +1,9 @@
+
+
+.btn-dark {
+  @include btnColor($dark, $white,$lite-dark);
+  cursor: pointer; 
+  border: none;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+}

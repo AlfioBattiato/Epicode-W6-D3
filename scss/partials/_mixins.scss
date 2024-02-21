@@ -1,7 +1,17 @@
-.sm{
-    @media screen and (max-width:576px) {
-      
-        
-    }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
 
+@mixin btnColor($color, $color2, $color3) {
+  background-color: $color;
+  color: $color2;
+
+  &:hover {
+    background-color: $color3;
+  }
+}
+
+@mixin box-shadow($valore) {
+  box-shadow: $valore;
+}
+@mixin font{
+    font-family: "Raleway", sans-serif;
 }

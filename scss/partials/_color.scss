@@ -1,7 +1,24 @@
-.bg-silver{
-background-color: #F4F4F4;
-}
-.bg-purple{
-    background-color: #640fc5;
-}
+$grigio: #f4f4f4;
+$viola: #640fc5; //variabile
+$dark: #141414;
+$lite-dark: #141414ec;
+$white: white;
+$shadow:5px 8px 17px -7px rgba(0, 0, 0, 0.73);
 
+// $colori: (
+//   bianco: white,
+//   nero: black,
+// ); //array//map
+
+.bg-silver {
+  background-color: $grigio;
+}
+.bg-purple {
+  background-color: $viola;
+}
+.dark {
+  color: $dark;
+}
+.shadow{
+  @include box-shadow($shadow);
+}

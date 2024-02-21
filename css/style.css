@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -15,40 +16,147 @@ a {
   text-decoration: none;
 }
 
-.row {
+.bg-silver {
+  background-color: #f4f4f4;
+}
+
+.bg-purple {
+  background-color: #640fc5;
+}
+
+.dark {
+  color: #141414;
+}
+
+.shadow {
+  box-shadow: 5px 8px 17px -7px rgba(0, 0, 0, 0.73);
+}
+
+.btn-dark {
+  background-color: #141414;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+}
+.btn-dark:hover {
+  background-color: rgba(20, 20, 20, 0.9254901961);
+}
+
+.flex, .nav, .colum, .row {
   display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-inline: 1rem;
+}
+
+.row {
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.colum {
+  flex-direction: column;
+  padding-bottom: 2rem;
 }
 
 .dimensione {
+  box-shadow: 5px 8px 17px -7px rgba(0, 0, 0, 0.73);
   width: 15rem;
   height: 15rem;
   object-fit: cover;
+  margin-block: 1rem;
 }
 
 .logo {
+  border-radius: 50%;
   width: 4rem;
   height: 4rem;
 }
 
 .nav {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   padding-inline: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 15px;
+  box-shadow: 5px 8px 17px -7px rgba(0, 0, 0, 0.73);
 }
 
-.bg-silver {
-  background-color: #F4F4F4;
+.fluid {
+  padding-inline: 1rem;
+  padding-bottom: 2rem;
+}
+.fluid img {
+  max-width: 100%; /* Assicura che l'immagine non superi la larghezza del contenitore */
+  height: auto; /* Impedisce il ridimensionamento distorto */
+  display: block;
+  object-fit: cover;
 }
 
-.bg-purple {
-  background-color: #640fc5;
+.s-1 {
+  font-size: 10px;
+}
+
+.s-2 {
+  font-size: 20px;
+}
+
+.s-3 {
+  font-size: 30px;
+}
+
+.s-4 {
+  font-size: 40px;
+}
+
+.s-5 {
+  font-size: 50px;
+}
+
+.s-6 {
+  font-size: 60px;
+}
+
+.s-7 {
+  font-size: 70px;
+}
+
+.p-i-1 {
+  padding-inline: 1rem;
+}
+
+.p-i-2 {
+  padding-inline: 2rem;
+}
+
+.p-i-3 {
+  padding-inline: 3rem;
+}
+
+.p-i-4 {
+  padding-inline: 4rem;
+}
+
+.p-i-5 {
+  padding-inline: 5rem;
+}
+
+.p-i-6 {
+  padding-inline: 6rem;
+}
+
+.p-i-7 {
+  padding-inline: 7rem;
+}
+
+.w {
+  width: 50%;
+}
+
+.font {
+  font-family: "Raleway", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

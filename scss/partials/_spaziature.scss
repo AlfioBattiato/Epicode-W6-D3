@@ -1,0 +1,21 @@
+$misure: 1, 2, 4;
+
+// @each $n in $misure {
+//   .p-#{$n} {
+//     padding-inline: $n + rem;
+//   }
+// }
+
+@for $indice from 1 through 7{
+    .s-#{$indice}{
+        font-size: 10px * $indice;
+    }
+}
+@for $indice from 1 through 7{
+    .p-i-#{$indice}{
+      padding-inline: 1rem * $indice;
+    }
+}
+.w{
+    width: 50%;
+}

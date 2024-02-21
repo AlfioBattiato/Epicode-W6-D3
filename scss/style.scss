@@ -1,6 +1,10 @@
 @import "./partials/reset";
+@import "./partials/_mixins.scss";
+@import "./partials/color";
 @import "./partials/button";
 @import "./partials/container";
 @import "./partials/spaziature";
-@import "./partials/_mixins.scss";
-@import "./partials/color"
+
+.font{
+@include font
+}
