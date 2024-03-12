@@ -90,7 +90,7 @@ a {
 }
 .fluid img {
   max-width: 100%; /* Assicura che l'immagine non superi la larghezza del contenitore */
-  height: auto; /* Impedisce il ridimensionamento distorto */
+  height: auto;
   display: block;
   object-fit: cover;
 }

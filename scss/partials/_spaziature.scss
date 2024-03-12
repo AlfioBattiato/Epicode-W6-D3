@@ -1,8 +1,9 @@
 $misure: 1, 2, 4;
 
+
 // @each $n in $misure {
-//   .p-#{$n} {
-//     padding-inline: $n + rem;
+//   .francesco-#{$n}{
+//     padding-inline:2* $n + rem;
 //   }
 // }
 
@@ -19,3 +20,5 @@ $misure: 1, 2, 4;
 .w{
     width: 50%;
 }
+
+
